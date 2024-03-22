@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import Auth from './Auth';
 import Dash from './Dash';
+import Add from './Add';
 
 
 
@@ -15,6 +16,8 @@ function App() {
         <Route  path='/login'  element={<Auth/>} />
         <Route  path='/register'  element={<Auth register />} />
         <Route  path='/dash'  element={<Dash/>} />
+        <Route  path='/add'  element={<Add/>} />
+
       </Routes>
     </div>
   );
